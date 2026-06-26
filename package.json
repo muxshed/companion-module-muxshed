@@ -1,0 +1,23 @@
+{
+	"name": "muxshed",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "main.js",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/muxshed/companion-module-muxshed.git"
+	},
+	"scripts": {
+		"check": "node --check main.js && node --check actions.js && node --check feedbacks.js",
+		"format": "prettier -w ."
+	},
+	"dependencies": {
+		"@companion-module/base": "^1.11.0",
+		"ws": "^8.18.0"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.1.0",
+		"prettier": "^3.3.0"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"id": "muxshed",
+	"name": "muxshed",
+	"shortname": "Muxshed",
+	"description": "Control a self-hosted Muxshed live production studio — go live, switch scenes and sources, bleep, record and toggle overlays.",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "https://github.com/muxshed/companion-module-muxshed",
+	"bugs": "https://github.com/muxshed/companion-module-muxshed/issues",
+	"maintainers": [
+		{
+			"name": "Muxshed",
+			"email": "hello@muxshed.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.0.0",
+		"entrypoint": "../main.js"
+	},
+	"manufacturer": "Muxshed",
+	"products": ["Muxshed"],
+	"keywords": ["streaming", "live", "rtmp", "srt", "switcher", "broadcast", "self-hosted"]
+}
