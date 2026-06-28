@@ -19,7 +19,6 @@ for actions, so buttons reflect on-air / recording status in real time.
 
 - Go Live · End Stream
 - Activate Scene · Cut to Source
-- Bleep
 - Start / Stop / Toggle Recording
 - Show / Hide Overlay
 - Refresh scenes / sources / overlays
@@ -37,7 +36,7 @@ for actions, so buttons reflect on-air / recording status in real time.
 
 ## Presets
 
-Ready-made buttons for Go Live, End Stream, Bleep, Record, and a live uptime display.
+Ready-made buttons for Go Live, End Stream, Record, and a live uptime display.
 
 ## License
 

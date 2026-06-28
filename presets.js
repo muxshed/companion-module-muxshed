@@ -20,7 +20,6 @@ export function initPresets(self) {
 			{ feedbackId: 'on_air', options: {}, style: { bgcolor: red, color: white } },
 		]),
 		end_stream: button('End Stream', 'END', 'end_stream', dark),
-		bleep: button('Bleep', 'BLEEP', 'bleep', combineRgb(120, 30, 30)),
 		record: button('Record', 'REC', 'record_toggle', dark, [
 			{ feedbackId: 'recording', options: {}, style: { bgcolor: red, color: white } },
 		]),

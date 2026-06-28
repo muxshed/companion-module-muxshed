@@ -46,11 +46,6 @@ export function initActions(self) {
 			],
 			callback: (a) => self.request(`/cut/${a.options.source}`),
 		},
-		bleep: {
-			name: 'Bleep',
-			options: [],
-			callback: () => self.request('/delay/bleep'),
-		},
 		record_start: {
 			name: 'Start Recording',
 			options: [],
